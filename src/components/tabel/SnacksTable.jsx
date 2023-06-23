@@ -72,7 +72,12 @@ const SnacksTable = ({ snacksData, searchInput }) => {
       <div>
         <table>
           <thead>
-            <tr>
+            <tr
+              style={{
+                boxShadow:
+                  "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
+              }}
+            >
               <th onClick={() => handleSort("id")}>ID</th>
               <th onClick={() => handleSort("product_name")}>Product Name</th>
               <th onClick={() => handleSort("product_weight")}>
