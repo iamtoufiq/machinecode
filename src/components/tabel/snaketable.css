@@ -1,0 +1,38 @@
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+/* Input styles */
+input[type="text"] {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+/* Optional styles for table appearance */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
